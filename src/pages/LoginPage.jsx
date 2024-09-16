@@ -2,7 +2,7 @@ import React from 'react';
 import { IoEarthOutline } from 'react-icons/io5';
 import { Link } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
-import LoginInput from '../components/LoginInput';
+import LoginInput from '../components/Login/LoginInput';
 import { asyncSetAuthUser } from '../states/authUser/action';
 
 function LoginPage() {
