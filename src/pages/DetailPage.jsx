@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 
-import ThreadDetail from '../components/ThreadDetail';
+import ThreadDetail from '../components/Thread/ThreadDetail';
 import {
   asyncReceiveThreadDetail,
   asyncAddComment,

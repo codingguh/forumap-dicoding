@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { postedAt } from '../utils';
+import { postedAt } from '../../utils';
 
 function CommentItem({ content, createdAt, owner }) {
   return (

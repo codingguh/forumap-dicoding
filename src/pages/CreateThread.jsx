@@ -2,7 +2,7 @@ import React from 'react';
 
 import { useDispatch } from 'react-redux';
 import { asyncAddThread } from '../states/threads/action';
-import ThreadInput from '../components/ThreadInput';
+import ThreadInput from '../components/Thread/ThreadInput';
 
 function CreateThread() {
   const dispatch = useDispatch();
