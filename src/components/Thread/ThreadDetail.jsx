@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import parse from 'html-react-parser';
 import { AiOutlineLike, AiOutlineDislike } from 'react-icons/ai';
 import CommentItem, { CommentItemShape } from '../Comment/CommentItem';
 import { postedAt } from '../../utils';
@@ -64,7 +65,7 @@ function ThreadDetail({
       <article>
         <h1 className="category-item">{category}</h1>
         <h1 className="talk-detail__text">{title}</h1>
-        <p className="talk-detail__text">{body}</p>
+        <p className="talk-detail__text">{parse(body)}</p>
       </article>
       <footer>
         <div className="talk-detail__like">
